@@ -1,0 +1,455 @@
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: Trajectory HOG HOF MBH
+sampling 100000 feature for training a codebook
+number of centroids in codebook: 8000
+NOT using PCA whitening
+encoding method: mySA
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.702540, acc = 0.666667
+2 th split: mean_ap = 0.788419, acc = 0.733333
+3 th split: mean_ap = 0.950000, acc = 0.933333
+4 th split: mean_ap = 0.795000, acc = 0.733333
+5 th split: mean_ap = 0.777843, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.802760, average accuracy (acc) = 0.733333
+Final results after 5 splits: average class accuracy: 0.733333
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 0.80 0.80 0.80 0.60 
+Class 2: ... 0.40 0.60 1.00 1.00 0.40 
+Class 3: ... 0.60 0.80 1.00 0.40 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.800000
+Accuracy of class 2: 0.680000
+Accuracy of class 3: 0.720000
+-----saving at SAVEPATH ....../debug/  2014-12-27-17-28------
+total time is 3.550752 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: Trajectory HOG HOF MBH
+sampling 100000 feature for training a codebook
+number of centroids in codebook: 8000
+do PCA whitening
+whitening regularizer: 0.100000
+encoding method: mySA
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.719259, acc = 0.666667
+2 th split: mean_ap = 0.818234, acc = 0.733333
+3 th split: mean_ap = 0.950000, acc = 0.933333
+4 th split: mean_ap = 0.818939, acc = 0.666667
+5 th split: mean_ap = 0.769113, acc = 0.533333
+Final results after 5 splits: mean_ap (mAP) = 0.815109, average accuracy (acc) = 0.706667
+Final results after 5 splits: average class accuracy: 0.706667
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 0.80 0.80 0.40 
+Class 2: ... 0.40 0.40 1.00 0.80 0.40 
+Class 3: ... 0.60 0.80 1.00 0.40 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.800000
+Accuracy of class 2: 0.600000
+Accuracy of class 3: 0.720000
+-----saving at SAVEPATH ....../debug/  2014-12-27-23-43------
+total time is 3.301758 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 feature for training a codebook
+number of centroids in codebook: 8000
+do PCA whitening
+whitening regularizer: 0.100000
+encoding method: mySA
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.734530, acc = 0.666667
+2 th split: mean_ap = 0.768254, acc = 0.733333
+3 th split: mean_ap = 0.958974, acc = 0.933333
+4 th split: mean_ap = 0.824242, acc = 0.733333
+5 th split: mean_ap = 0.735317, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.804264, average accuracy (acc) = 0.733333
+Final results after 5 splits: average class accuracy: 0.733333
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 0.80 0.80 0.80 0.60 
+Class 2: ... 0.40 0.60 1.00 0.80 0.40 
+Class 3: ... 0.60 0.80 1.00 0.60 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.800000
+Accuracy of class 2: 0.640000
+Accuracy of class 3: 0.760000
+-----saving at SAVEPATH ....../debug/  2014-12-28-04-14------
+total time is 3.731380 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: Trajectory HOG HOF MBH
+sampling 100000 feature for training a codebook
+number of centroids in codebook: 8000
+do PCA whitening
+whitening regularizer: 0.100000
+encoding method: mySA
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.719259, acc = 0.666667
+2 th split: mean_ap = 0.818234, acc = 0.733333
+3 th split: mean_ap = 0.950000, acc = 0.933333
+4 th split: mean_ap = 0.818939, acc = 0.666667
+5 th split: mean_ap = 0.769113, acc = 0.533333
+Final results after 5 splits: mean_ap (mAP) = 0.815109, average accuracy (acc) = 0.706667
+Final results after 5 splits: average class accuracy: 0.706667
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 0.80 0.80 0.40 
+Class 2: ... 0.40 0.40 1.00 0.80 0.40 
+Class 3: ... 0.60 0.80 1.00 0.40 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.800000
+Accuracy of class 2: 0.600000
+Accuracy of class 3: 0.720000
+-----saving at SAVEPATH ....../debug/  2014-12-28-20-07------
+total time is 3.506656 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 feature for training a codebook
+number of centroids in codebook: 4000
+do PCA whitening
+whitening regularizer: 0.100000
+encoding method: mySA
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.721587, acc = 0.666667
+2 th split: mean_ap = 0.793386, acc = 0.800000
+3 th split: mean_ap = 0.958974, acc = 0.933333
+4 th split: mean_ap = 0.805051, acc = 0.800000
+5 th split: mean_ap = 0.744365, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.804673, average accuracy (acc) = 0.760000
+Final results after 5 splits: average class accuracy: 0.760000
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 0.80 0.80 0.60 
+Class 2: ... 0.40 0.60 1.00 1.00 0.40 
+Class 3: ... 0.60 0.80 1.00 0.60 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.840000
+Accuracy of class 2: 0.680000
+Accuracy of class 3: 0.760000
+-----saving at SAVEPATH ....../debug/  2014-12-29-00-38------
+total time is 2.395419 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 feature for training a codebook
+number of centroids in codebook: 4000
+do PCA whitening
+whitening regularizer: 0.100000
+encoding method: myVQ
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.737249, acc = 0.666667
+2 th split: mean_ap = 0.776720, acc = 0.800000
+3 th split: mean_ap = 0.946032, acc = 0.933333
+4 th split: mean_ap = 0.805051, acc = 0.733333
+5 th split: mean_ap = 0.744365, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.801883, average accuracy (acc) = 0.746667
+Final results after 5 splits: average class accuracy: 0.746667
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 0.80 0.80 0.60 
+Class 2: ... 0.40 0.60 1.00 0.80 0.40 
+Class 3: ... 0.60 0.80 1.00 0.60 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.840000
+Accuracy of class 2: 0.640000
+Accuracy of class 3: 0.760000
+-----saving at SAVEPATH ....../debug/  2014-12-29-13-18------
+total time is 2.035795 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 feature for training a codebook
+number of centroids in codebook: 8000
+do PCA whitening
+whitening regularizer: 0.100000
+encoding method: myVQ
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.712308, acc = 0.666667
+2 th split: mean_ap = 0.790661, acc = 0.733333
+3 th split: mean_ap = 0.946032, acc = 0.933333
+4 th split: mean_ap = 0.810909, acc = 0.666667
+5 th split: mean_ap = 0.744365, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.800855, average accuracy (acc) = 0.720000
+Final results after 5 splits: average class accuracy: 0.720000
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 0.80 0.80 0.80 0.60 
+Class 2: ... 0.40 0.60 1.00 0.80 0.40 
+Class 3: ... 0.60 0.80 1.00 0.40 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.800000
+Accuracy of class 2: 0.640000
+Accuracy of class 3: 0.720000
+-----saving at SAVEPATH ....../debug/  2014-12-29-17-04------
+total time is 3.186750 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 4000
+do PCA whitening
+whitening regularizer: 0.100000
+encoding method: mySA
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.712910, acc = 0.666667
+2 th split: mean_ap = 0.798624, acc = 0.800000
+3 th split: mean_ap = 0.958974, acc = 0.933333
+4 th split: mean_ap = 0.805051, acc = 0.666667
+5 th split: mean_ap = 0.709424, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.796997, average accuracy (acc) = 0.733333
+Final results after 5 splits: average class accuracy: 0.733333
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 0.80 0.80 0.80 0.60 
+Class 2: ... 0.40 0.80 1.00 0.80 0.40 
+Class 3: ... 0.60 0.80 1.00 0.40 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.800000
+Accuracy of class 2: 0.680000
+Accuracy of class 3: 0.720000
+-----saving at SAVEPATH ....../debug/  2015-01-02-19-16------
+total time is 2.937016 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 256000 features for training a codebook
+number of centroids in codebook: 256
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: Fisher
+pooling method: sum-pooling
+normalization: Intra+Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.771429, acc = 0.666667
+2 th split: mean_ap = 0.844371, acc = 0.733333
+3 th split: mean_ap = 0.897222, acc = 0.866667
+4 th split: mean_ap = 0.905556, acc = 0.866667
+5 th split: mean_ap = 0.827513, acc = 0.666667
+Final results after 5 splits: mean_ap (mAP) = 0.849218, average accuracy (acc) = 0.760000
+Final results after 5 splits: average class accuracy: 0.760000
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 0.80 0.80 0.80 0.40 
+Class 2: ... 0.20 0.60 0.80 1.00 0.60 
+Class 3: ... 0.80 0.80 1.00 0.80 1.00 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.760000
+Accuracy of class 2: 0.640000
+Accuracy of class 3: 0.880000
+-----saving at SAVEPATH ....../debug/  2015-01-20-13-40------
+total time is 14.386434 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 256000 features for training a codebook
+number of centroids in codebook: 256
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: Fisher
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.734404, acc = 0.666667
+2 th split: mean_ap = 0.868022, acc = 0.800000
+3 th split: mean_ap = 0.903704, acc = 0.866667
+4 th split: mean_ap = 0.919192, acc = 0.866667
+5 th split: mean_ap = 0.837446, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.852553, average accuracy (acc) = 0.760000
+Final results after 5 splits: average class accuracy: 0.760000
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 0.80 0.80 0.40 
+Class 2: ... 0.20 0.60 0.80 1.00 0.40 
+Class 3: ... 0.80 0.80 1.00 0.80 1.00 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.800000
+Accuracy of class 2: 0.600000
+Accuracy of class 3: 0.880000
+-----saving at SAVEPATH ....../debug/  2015-01-21-06-13------
+total time is 14.120194 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 4000
+k-means implementation: yael
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: myVQ
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.734530, acc = 0.666667
+2 th split: mean_ap = 0.775661, acc = 0.800000
+3 th split: mean_ap = 0.947863, acc = 0.933333
+4 th split: mean_ap = 0.802576, acc = 0.800000
+5 th split: mean_ap = 0.735317, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.799190, average accuracy (acc) = 0.760000
+Final results after 5 splits: average class accuracy: 0.760000
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 0.80 0.80 0.60 
+Class 2: ... 0.40 0.60 1.00 1.00 0.40 
+Class 3: ... 0.60 0.80 1.00 0.60 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.840000
+Accuracy of class 2: 0.680000
+Accuracy of class 3: 0.760000
+-----saving at SAVEPATH ....../debug/  2015-02-05-22-06------
+total time is 5.731004 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+evaluation method: train/test splits
+number of evaluation splits: 5
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+evaluation method: train/test splits
+number of evaluation splits: 5
+number of train samples: 60
+number of test sampls: 15
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 8000
+k-means implementation: yael
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: myVQ
+total feature dimensions: 32000
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.742678, acc = 0.666667
+2 th split: mean_ap = 0.789550, acc = 0.666667
+3 th split: mean_ap = 0.947863, acc = 0.933333
+4 th split: mean_ap = 0.827576, acc = 0.666667
+5 th split: mean_ap = 0.746429, acc = 0.533333
+Final results after 5 splits: mean_ap (mAP) = 0.810819, average accuracy (acc) = 0.693333
+Final results after 5 splits: average class accuracy: 0.693333
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 0.80 0.80 0.80 0.40 
+Class 2: ... 0.40 0.40 1.00 0.80 0.40 
+Class 3: ... 0.60 0.80 1.00 0.40 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.760000
+Accuracy of class 2: 0.600000
+Accuracy of class 3: 0.720000
+-----saving at SAVEPATH ....../debug/  2015-04-09-08-04------
+total time is 8.511789 hours
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+evaluation method: train/test splits
+number of evaluation splits: 5
+number of train samples: 60
+number of test sampls: 15
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 4000
+k-means implementation: yael
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: myVQ
+total feature dimensions: 16000
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.742678, acc = 0.733333
+2 th split: mean_ap = 0.783995, acc = 0.800000
+3 th split: mean_ap = 0.947863, acc = 0.933333
+4 th split: mean_ap = 0.827576, acc = 0.733333
+5 th split: mean_ap = 0.742228, acc = 0.600000
+Final results after 5 splits: mean_ap (mAP) = 0.808868, average accuracy (acc) = 0.760000
+Final results after 5 splits: average class accuracy: 0.760000
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 0.80 0.80 0.60 
+Class 2: ... 0.40 0.60 1.00 0.80 0.40 
+Class 3: ... 0.80 0.80 1.00 0.60 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.840000
+Accuracy of class 2: 0.640000
+Accuracy of class 3: 0.800000
+-----saving at SAVEPATH ....../debug/  2015-04-09-15-20------
+total time is 5.698218 hours

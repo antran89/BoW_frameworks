@@ -1,0 +1,194 @@
+
+----------------HMDB RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 8000
+k-means implementation: yael
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: VQ
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+Final results after 0 splits: mean_ap (mAP) = NaN, average accuracy (acc) = NaN
+Final results after 0 splits: average class accuracy: NaN
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 
+Class 2: ... 
+Class 3: ... 
+Class 4: ... 
+Class 5: ... 
+Class 6: ... 
+Class 7: ... 
+Class 8: ... 
+Class 9: ... 
+Class 10: ... 
+Class 11: ... 
+Class 12: ... 
+Class 13: ... 
+Class 14: ... 
+Class 15: ... 
+Class 16: ... 
+Class 17: ... 
+Class 18: ... 
+Class 19: ... 
+Class 20: ... 
+Class 21: ... 
+Class 22: ... 
+Class 23: ... 
+Class 24: ... 
+Class 25: ... 
+Class 26: ... 
+Class 27: ... 
+Class 28: ... 
+Class 29: ... 
+Class 30: ... 
+Class 31: ... 
+Class 32: ... 
+Class 33: ... 
+Class 34: ... 
+Class 35: ... 
+Class 36: ... 
+Class 37: ... 
+Class 38: ... 
+Class 39: ... 
+Class 40: ... 
+Class 41: ... 
+Class 42: ... 
+Class 43: ... 
+Class 44: ... 
+Class 45: ... 
+Class 46: ... 
+Class 47: ... 
+Class 48: ... 
+Class 49: ... 
+Class 50: ... 
+Class 51: ... 
+Mean per-class accuracy: ...
+Accuracy of class 1: NaN
+Accuracy of class 2: NaN
+Accuracy of class 3: NaN
+Accuracy of class 4: NaN
+Accuracy of class 5: NaN
+Accuracy of class 6: NaN
+Accuracy of class 7: NaN
+Accuracy of class 8: NaN
+Accuracy of class 9: NaN
+Accuracy of class 10: NaN
+Accuracy of class 11: NaN
+Accuracy of class 12: NaN
+Accuracy of class 13: NaN
+Accuracy of class 14: NaN
+Accuracy of class 15: NaN
+Accuracy of class 16: NaN
+Accuracy of class 17: NaN
+Accuracy of class 18: NaN
+Accuracy of class 19: NaN
+Accuracy of class 20: NaN
+Accuracy of class 21: NaN
+Accuracy of class 22: NaN
+Accuracy of class 23: NaN
+Accuracy of class 24: NaN
+Accuracy of class 25: NaN
+Accuracy of class 26: NaN
+Accuracy of class 27: NaN
+Accuracy of class 28: NaN
+Accuracy of class 29: NaN
+Accuracy of class 30: NaN
+Accuracy of class 31: NaN
+Accuracy of class 32: NaN
+Accuracy of class 33: NaN
+Accuracy of class 34: NaN
+Accuracy of class 35: NaN
+Accuracy of class 36: NaN
+Accuracy of class 37: NaN
+Accuracy of class 38: NaN
+Accuracy of class 39: NaN
+Accuracy of class 40: NaN
+Accuracy of class 41: NaN
+Accuracy of class 42: NaN
+Accuracy of class 43: NaN
+Accuracy of class 44: NaN
+Accuracy of class 45: NaN
+Accuracy of class 46: NaN
+Accuracy of class 47: NaN
+Accuracy of class 48: NaN
+Accuracy of class 49: NaN
+Accuracy of class 50: NaN
+Accuracy of class 51: NaN
+-----saving at SAVEPATH ....../debug/  2015-02-06-10-06------
+total time is 0.000427 hours
+
+----------------UCF-Sports LOO RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 8000
+k-means implementation: yael
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: myVQ
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.933333, acc = 0.800000
+2 th split: mean_ap = 0.950000, acc = 0.900000
+3 th split: mean_ap = 1.000000, acc = 1.000000
+4 th split: mean_ap = 1.000000, acc = 0.800000
+5 th split: mean_ap = 1.000000, acc = 0.900000
+6 th split: mean_ap = 0.950000, acc = 0.900000
+7 th split: mean_ap = 1.000000, acc = 1.000000
+8 th split: mean_ap = 0.950000, acc = 0.900000
+9 th split: mean_ap = 1.000000, acc = 0.900000
+10 th split: mean_ap = 0.950000, acc = 0.900000
+11 th split: mean_ap = 0.866667, acc = 0.700000
+12 th split: mean_ap = 0.925000, acc = 0.900000
+13 th split: mean_ap = 0.950000, acc = 0.900000
+14 th split: mean_ap = 1.000000, acc = 0.900000
+15 th split: mean_ap = 1.000000, acc = 0.900000
+16 th split: mean_ap = 1.000000, acc = 0.900000
+17 th split: mean_ap = 1.000000, acc = 0.900000
+18 th split: mean_ap = 0.950000, acc = 0.900000
+19 th split: mean_ap = 1.000000, acc = 1.000000
+20 th split: mean_ap = 0.933333, acc = 0.700000
+21 th split: mean_ap = 1.000000, acc = 0.800000
+22 th split: mean_ap = 1.000000, acc = 0.900000
+Final results after 22 splits: mean_ap (mAP) = 0.970833, average accuracy (acc) = 0.881818
+Final results after 22 splits: average class accuracy: 0.881818
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
+Class 2: ... 1.00 1.00 1.00 1.00 0.00 1.00 1.00 1.00 1.00 1.00 0.00 1.00 1.00 1.00 0.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
+Class 3: ... 0.00 0.00 1.00 0.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 0.00 1.00 1.00 0.00 0.00 0.00 
+Class 4: ... 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
+Class 5: ... 1.00 1.00 1.00 1.00 1.00 0.00 1.00 1.00 0.00 1.00 0.00 1.00 1.00 1.00 1.00 1.00 1.00 0.00 1.00 1.00 0.00 1.00 
+Class 6: ... 0.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 0.00 1.00 0.00 0.00 0.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
+Class 7: ... 1.00 1.00 1.00 0.00 1.00 1.00 1.00 0.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 0.00 1.00 1.00 1.00 0.00 1.00 1.00 
+Class 8: ... 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
+Class 9: ... 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 0.00 1.00 1.00 
+Class 10: ... 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 0.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
+Mean per-class accuracy: ...
+Accuracy of class 1: 1.000000
+Accuracy of class 2: 0.863636
+Accuracy of class 3: 0.681818
+Accuracy of class 4: 1.000000
+Accuracy of class 5: 0.772727
+Accuracy of class 6: 0.772727
+Accuracy of class 7: 0.818182
+Accuracy of class 8: 1.000000
+Accuracy of class 9: 0.954545
+Accuracy of class 10: 0.954545
+-----saving at SAVEPATH ....../debug/  2015-02-08-03-26------
+total time is 34.221203 hours

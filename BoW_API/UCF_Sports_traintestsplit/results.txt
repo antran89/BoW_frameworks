@@ -1,0 +1,39 @@
+
+----------------UCF-Sports RESULTS----------------
+---------------Experiment description---------------
+sampling 100000 feature for training codebook
+number of centroids in codebook: 4000
+NOT using PCA whitening
+encoding method: VQ
+pooling method: sum-pooling
+normalization: L1
+classifier: chi_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.934877, acc = 0.787234
+Final results after 1 splits: mean_ap (mAP) = 0.934877, average accuracy (acc) = 0.787234
+Final results after 1 splits: average class accuracy: 0.808333
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 
+Class 2: ... 0.50 
+Class 3: ... 0.33 
+Class 4: ... 1.00 
+Class 5: ... 1.00 
+Class 6: ... 0.50 
+Class 7: ... 0.75 
+Class 8: ... 1.00 
+Class 9: ... 1.00 
+Class 10: ... 1.00 
+Mean per-class accuracy: ...
+Accuracy of class 1: 1.000000
+Accuracy of class 2: 0.500000
+Accuracy of class 3: 0.333333
+Accuracy of class 4: 1.000000
+Accuracy of class 5: 1.000000
+Accuracy of class 6: 0.500000
+Accuracy of class 7: 0.750000
+Accuracy of class 8: 1.000000
+Accuracy of class 9: 1.000000
+Accuracy of class 10: 1.000000
+-----saving at SAVEPATH ....../debug/  2014-12-08-17-56------
+total time is 0.590810 hours

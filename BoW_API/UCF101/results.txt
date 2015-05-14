@@ -1,0 +1,688 @@
+
+----------------UCF101 RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 8000
+k-means implementation: yael
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: myVQ
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.828087, acc = 0.803331
+2 th split: mean_ap = 0.848120, acc = 0.819764
+3 th split: mean_ap = 0.849313, acc = 0.829004
+Final results after 3 splits: mean_ap (mAP) = 0.841840, average accuracy (acc) = 0.817366
+Final results after 3 splits: average class accuracy: 0.815057
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 0.73 0.64 0.78 
+Class 2: ... 0.75 0.48 0.64 
+Class 3: ... 0.78 0.68 0.68 
+Class 4: ... 0.71 0.77 0.77 
+Class 5: ... 0.90 0.97 0.77 
+Class 6: ... 0.88 0.96 0.79 
+Class 7: ... 0.70 0.85 0.80 
+Class 8: ... 0.69 0.42 0.71 
+Class 9: ... 1.00 1.00 0.93 
+Class 10: ... 0.98 1.00 1.00 
+Class 11: ... 0.89 0.89 0.95 
+Class 12: ... 1.00 1.00 1.00 
+Class 13: ... 0.55 0.68 0.85 
+Class 14: ... 0.88 0.73 0.96 
+Class 15: ... 0.87 0.78 1.00 
+Class 16: ... 0.93 0.98 1.00 
+Class 17: ... 0.94 0.66 0.98 
+Class 18: ... 0.97 0.95 0.86 
+Class 19: ... 0.96 0.86 0.93 
+Class 20: ... 0.56 0.68 0.71 
+Class 21: ... 1.00 0.97 0.93 
+Class 22: ... 0.92 0.93 0.95 
+Class 23: ... 0.78 0.69 0.69 
+Class 24: ... 0.65 0.76 0.81 
+Class 25: ... 0.55 0.71 0.68 
+Class 26: ... 1.00 1.00 0.95 
+Class 27: ... 0.56 0.86 0.75 
+Class 28: ... 1.00 0.94 0.82 
+Class 29: ... 0.53 0.92 0.93 
+Class 30: ... 0.86 0.97 0.92 
+Class 31: ... 0.73 0.76 0.86 
+Class 32: ... 0.51 0.84 0.90 
+Class 33: ... 1.00 0.94 0.90 
+Class 34: ... 0.33 0.54 0.37 
+Class 35: ... 0.24 0.44 0.50 
+Class 36: ... 0.84 1.00 1.00 
+Class 37: ... 0.64 0.76 0.76 
+Class 38: ... 0.41 0.29 0.68 
+Class 39: ... 0.80 0.93 0.71 
+Class 40: ... 0.41 0.88 0.81 
+Class 41: ... 0.97 0.94 1.00 
+Class 42: ... 0.96 0.77 0.95 
+Class 43: ... 0.94 0.78 0.77 
+Class 44: ... 0.98 1.00 0.98 
+Class 45: ... 0.61 0.64 0.67 
+Class 46: ... 0.97 0.74 0.75 
+Class 47: ... 0.97 0.78 1.00 
+Class 48: ... 0.74 1.00 0.93 
+Class 49: ... 0.69 0.81 0.74 
+Class 50: ... 0.88 0.81 0.91 
+Class 51: ... 0.69 0.76 0.76 
+Class 52: ... 0.81 0.69 0.48 
+Class 53: ... 1.00 0.92 0.78 
+Class 54: ... 0.60 0.68 0.81 
+Class 55: ... 0.50 0.43 0.56 
+Class 56: ... 0.51 0.60 0.32 
+Class 57: ... 0.95 0.94 1.00 
+Class 58: ... 0.48 0.52 0.59 
+Class 59: ... 0.70 0.89 0.98 
+Class 60: ... 0.95 0.83 0.82 
+Class 61: ... 0.90 1.00 0.93 
+Class 62: ... 0.92 0.55 0.57 
+Class 63: ... 0.88 0.78 0.73 
+Class 64: ... 0.82 0.75 0.73 
+Class 65: ... 0.80 0.93 0.96 
+Class 66: ... 0.97 0.94 0.94 
+Class 67: ... 0.93 0.89 0.82 
+Class 68: ... 0.93 0.95 0.96 
+Class 69: ... 1.00 0.97 1.00 
+Class 70: ... 0.71 0.96 0.93 
+Class 71: ... 0.87 0.83 1.00 
+Class 72: ... 0.87 0.57 0.68 
+Class 73: ... 0.82 0.73 0.79 
+Class 74: ... 0.88 0.82 1.00 
+Class 75: ... 0.76 0.61 0.71 
+Class 76: ... 0.81 0.91 0.81 
+Class 77: ... 0.84 0.82 1.00 
+Class 78: ... 0.53 0.65 0.79 
+Class 79: ... 0.50 0.71 0.49 
+Class 80: ... 0.97 0.94 0.94 
+Class 81: ... 0.68 1.00 0.89 
+Class 82: ... 0.79 0.89 0.89 
+Class 83: ... 0.87 0.97 0.91 
+Class 84: ... 0.85 0.74 0.77 
+Class 85: ... 0.85 0.93 0.89 
+Class 86: ... 0.97 1.00 0.94 
+Class 87: ... 0.97 1.00 0.88 
+Class 88: ... 1.00 0.97 0.72 
+Class 89: ... 0.86 1.00 0.89 
+Class 90: ... 0.92 0.82 0.82 
+Class 91: ... 0.68 0.68 0.75 
+Class 92: ... 0.82 0.88 0.89 
+Class 93: ... 0.95 0.86 0.86 
+Class 94: ... 0.78 1.00 1.00 
+Class 95: ... 0.95 0.59 0.61 
+Class 96: ... 0.89 0.96 0.97 
+Class 97: ... 1.00 0.97 0.96 
+Class 98: ... 0.64 0.86 0.71 
+Class 99: ... 0.69 0.92 0.76 
+Class 100: ... 0.91 0.70 1.00 
+Class 101: ... 0.81 0.80 0.83 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.717361
+Accuracy of class 2: 0.623041
+Accuracy of class 3: 0.715875
+Accuracy of class 4: 0.751648
+Accuracy of class 5: 0.880979
+Accuracy of class 6: 0.876658
+Accuracy of class 7: 0.781276
+Accuracy of class 8: 0.608081
+Accuracy of class 9: 0.975000
+Accuracy of class 10: 0.993056
+Accuracy of class 11: 0.911209
+Accuracy of class 12: 1.000000
+Accuracy of class 13: 0.693524
+Accuracy of class 14: 0.858802
+Accuracy of class 15: 0.882639
+Accuracy of class 16: 0.968992
+Accuracy of class 17: 0.858363
+Accuracy of class 18: 0.929279
+Accuracy of class 19: 0.917488
+Accuracy of class 20: 0.645969
+Accuracy of class 21: 0.967677
+Accuracy of class 22: 0.932425
+Accuracy of class 23: 0.720187
+Accuracy of class 24: 0.740706
+Accuracy of class 25: 0.644568
+Accuracy of class 26: 0.982456
+Accuracy of class 27: 0.722007
+Accuracy of class 28: 0.920274
+Accuracy of class 29: 0.792417
+Accuracy of class 30: 0.917153
+Accuracy of class 31: 0.786433
+Accuracy of class 32: 0.751018
+Accuracy of class 33: 0.946465
+Accuracy of class 34: 0.415101
+Accuracy of class 35: 0.393816
+Accuracy of class 36: 0.948148
+Accuracy of class 37: 0.720506
+Accuracy of class 38: 0.458299
+Accuracy of class 39: 0.812398
+Accuracy of class 40: 0.698070
+Accuracy of class 41: 0.970274
+Accuracy of class 42: 0.895485
+Accuracy of class 43: 0.830128
+Accuracy of class 44: 0.984817
+Accuracy of class 45: 0.638645
+Accuracy of class 46: 0.820098
+Accuracy of class 47: 0.916917
+Accuracy of class 48: 0.889025
+Accuracy of class 49: 0.746377
+Accuracy of class 50: 0.866558
+Accuracy of class 51: 0.739639
+Accuracy of class 52: 0.662656
+Accuracy of class 53: 0.900150
+Accuracy of class 54: 0.696090
+Accuracy of class 55: 0.497024
+Accuracy of class 56: 0.479537
+Accuracy of class 57: 0.961780
+Accuracy of class 58: 0.529432
+Accuracy of class 59: 0.857386
+Accuracy of class 60: 0.867570
+Accuracy of class 61: 0.941596
+Accuracy of class 62: 0.678571
+Accuracy of class 63: 0.798499
+Accuracy of class 64: 0.766234
+Accuracy of class 65: 0.894070
+Accuracy of class 66: 0.946909
+Accuracy of class 67: 0.880952
+Accuracy of class 68: 0.943091
+Accuracy of class 69: 0.990196
+Accuracy of class 70: 0.869048
+Accuracy of class 71: 0.901709
+Accuracy of class 72: 0.705556
+Accuracy of class 73: 0.780940
+Accuracy of class 74: 0.899521
+Accuracy of class 75: 0.695017
+Accuracy of class 76: 0.841819
+Accuracy of class 77: 0.885907
+Accuracy of class 78: 0.659238
+Accuracy of class 79: 0.566667
+Accuracy of class 80: 0.950928
+Accuracy of class 81: 0.856579
+Accuracy of class 82: 0.857143
+Accuracy of class 83: 0.916083
+Accuracy of class 84: 0.785728
+Accuracy of class 85: 0.888124
+Accuracy of class 86: 0.968078
+Accuracy of class 87: 0.949792
+Accuracy of class 88: 0.897211
+Accuracy of class 89: 0.915344
+Accuracy of class 90: 0.855420
+Accuracy of class 91: 0.702381
+Accuracy of class 92: 0.860072
+Accuracy of class 93: 0.891115
+Accuracy of class 94: 0.927083
+Accuracy of class 95: 0.717783
+Accuracy of class 96: 0.941964
+Accuracy of class 97: 0.979086
+Accuracy of class 98: 0.733971
+Accuracy of class 99: 0.788095
+Accuracy of class 100: 0.871271
+Accuracy of class 101: 0.812963
+-----saving at SAVEPATH ....../debug/  2015-03-17-07-53------
+total time is 58.121706 hours
+
+----------------UCF101 RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 256000 features for training a codebook
+number of centroids in codebook: 512
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: Fisher
+pooling method: sum-pooling
+normalization: Intra+Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.871874, acc = 0.854877
+2 th split: mean_ap = 0.891675, acc = 0.881896
+3 th split: mean_ap = 0.892825, acc = 0.878247
+Final results after 3 splits: mean_ap (mAP) = 0.885458, average accuracy (acc) = 0.871673
+Final results after 3 splits: average class accuracy: 0.869095
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 0.82 0.82 0.84 
+Class 2: ... 0.84 0.62 0.48 
+Class 3: ... 0.68 0.71 0.71 
+Class 4: ... 0.80 0.83 0.90 
+Class 5: ... 0.90 1.00 0.77 
+Class 6: ... 0.91 0.96 0.86 
+Class 7: ... 0.84 0.95 0.82 
+Class 8: ... 0.77 0.45 0.81 
+Class 9: ... 1.00 1.00 0.93 
+Class 10: ... 1.00 1.00 1.00 
+Class 11: ... 1.00 0.92 1.00 
+Class 12: ... 1.00 1.00 1.00 
+Class 13: ... 0.61 0.78 0.82 
+Class 14: ... 0.82 0.77 0.96 
+Class 15: ... 0.83 0.94 1.00 
+Class 16: ... 0.93 0.95 1.00 
+Class 17: ... 0.94 0.78 1.00 
+Class 18: ... 0.97 1.00 0.86 
+Class 19: ... 1.00 0.96 1.00 
+Class 20: ... 0.61 0.76 0.79 
+Class 21: ... 1.00 0.85 0.90 
+Class 22: ... 0.97 0.98 1.00 
+Class 23: ... 0.83 0.87 0.83 
+Class 24: ... 0.71 0.88 0.79 
+Class 25: ... 0.70 0.90 0.61 
+Class 26: ... 1.00 1.00 0.97 
+Class 27: ... 0.71 0.91 0.88 
+Class 28: ... 1.00 1.00 1.00 
+Class 29: ... 0.82 1.00 0.93 
+Class 30: ... 0.86 1.00 0.97 
+Class 31: ... 0.92 0.82 0.84 
+Class 32: ... 0.65 0.84 0.97 
+Class 33: ... 0.92 1.00 0.90 
+Class 34: ... 0.42 0.57 0.51 
+Class 35: ... 0.30 0.66 0.64 
+Class 36: ... 1.00 1.00 1.00 
+Class 37: ... 0.79 0.92 1.00 
+Class 38: ... 0.59 0.57 0.68 
+Class 39: ... 0.88 0.95 0.73 
+Class 40: ... 0.70 0.94 0.97 
+Class 41: ... 1.00 1.00 1.00 
+Class 42: ... 0.98 0.84 1.00 
+Class 43: ... 1.00 0.94 0.94 
+Class 44: ... 0.98 1.00 0.98 
+Class 45: ... 0.77 0.58 0.73 
+Class 46: ... 0.97 0.79 0.89 
+Class 47: ... 0.95 0.72 1.00 
+Class 48: ... 0.95 1.00 1.00 
+Class 49: ... 0.72 0.92 0.80 
+Class 50: ... 0.97 0.86 0.94 
+Class 51: ... 0.69 0.93 0.91 
+Class 52: ... 0.81 0.85 0.55 
+Class 53: ... 0.97 0.92 0.97 
+Class 54: ... 0.73 0.95 1.00 
+Class 55: ... 0.65 0.46 0.53 
+Class 56: ... 0.71 0.62 0.38 
+Class 57: ... 0.95 1.00 1.00 
+Class 58: ... 0.52 0.66 0.59 
+Class 59: ... 0.86 0.93 0.96 
+Class 60: ... 0.98 0.90 0.84 
+Class 61: ... 1.00 0.98 0.95 
+Class 62: ... 0.88 0.79 0.62 
+Class 63: ... 0.91 0.91 0.71 
+Class 64: ... 0.75 0.86 1.00 
+Class 65: ... 0.89 1.00 1.00 
+Class 66: ... 0.97 0.97 0.97 
+Class 67: ... 0.96 0.89 0.79 
+Class 68: ... 0.95 0.97 1.00 
+Class 69: ... 1.00 1.00 1.00 
+Class 70: ... 0.82 0.96 0.96 
+Class 71: ... 0.87 0.83 1.00 
+Class 72: ... 0.87 0.68 0.82 
+Class 73: ... 0.86 0.85 0.68 
+Class 74: ... 0.90 0.95 1.00 
+Class 75: ... 0.94 0.70 0.91 
+Class 76: ... 0.83 0.93 0.86 
+Class 77: ... 0.95 0.85 1.00 
+Class 78: ... 0.70 0.70 0.85 
+Class 79: ... 0.57 0.74 0.77 
+Class 80: ... 0.91 0.89 0.97 
+Class 81: ... 0.70 1.00 0.89 
+Class 82: ... 0.89 0.93 1.00 
+Class 83: ... 0.90 0.97 0.88 
+Class 84: ... 0.87 0.87 0.79 
+Class 85: ... 0.85 0.95 1.00 
+Class 86: ... 0.97 1.00 1.00 
+Class 87: ... 1.00 1.00 0.88 
+Class 88: ... 0.97 1.00 0.82 
+Class 89: ... 0.88 1.00 0.97 
+Class 90: ... 0.97 0.88 0.90 
+Class 91: ... 0.82 0.86 0.75 
+Class 92: ... 0.86 1.00 0.96 
+Class 93: ... 1.00 0.89 0.92 
+Class 94: ... 0.81 1.00 0.97 
+Class 95: ... 0.95 0.78 0.81 
+Class 96: ... 0.89 0.96 0.97 
+Class 97: ... 1.00 0.97 1.00 
+Class 98: ... 0.58 0.89 0.65 
+Class 99: ... 0.74 1.00 0.95 
+Class 100: ... 0.93 0.78 1.00 
+Class 101: ... 0.75 0.80 0.83 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.825511
+Accuracy of class 2: 0.649763
+Accuracy of class 3: 0.700257
+Accuracy of class 4: 0.842002
+Accuracy of class 5: 0.892473
+Accuracy of class 6: 0.907666
+Accuracy of class 7: 0.870309
+Accuracy of class 8: 0.678499
+Accuracy of class 9: 0.975000
+Accuracy of class 10: 1.000000
+Accuracy of class 11: 0.972222
+Accuracy of class 12: 1.000000
+Accuracy of class 13: 0.734598
+Accuracy of class 14: 0.849711
+Accuracy of class 15: 0.923611
+Accuracy of class 16: 0.961240
+Accuracy of class 17: 0.906421
+Accuracy of class 18: 0.945946
+Accuracy of class 19: 0.988095
+Accuracy of class 20: 0.723312
+Accuracy of class 21: 0.916162
+Accuracy of class 22: 0.983323
+Accuracy of class 23: 0.846154
+Accuracy of class 24: 0.794178
+Accuracy of class 25: 0.735779
+Accuracy of class 26: 0.991228
+Accuracy of class 27: 0.831029
+Accuracy of class 28: 1.000000
+Accuracy of class 29: 0.919444
+Accuracy of class 30: 0.944695
+Accuracy of class 31: 0.860095
+Accuracy of class 32: 0.821704
+Accuracy of class 33: 0.941026
+Accuracy of class 34: 0.502032
+Accuracy of class 35: 0.534808
+Accuracy of class 36: 1.000000
+Accuracy of class 37: 0.901544
+Accuracy of class 38: 0.612361
+Accuracy of class 39: 0.853252
+Accuracy of class 40: 0.870540
+Accuracy of class 41: 1.000000
+Accuracy of class 42: 0.940167
+Accuracy of class 43: 0.962434
+Accuracy of class 44: 0.984817
+Accuracy of class 45: 0.692408
+Accuracy of class 46: 0.887325
+Accuracy of class 47: 0.889389
+Accuracy of class 48: 0.982456
+Accuracy of class 49: 0.814412
+Accuracy of class 50: 0.924292
+Accuracy of class 51: 0.844215
+Accuracy of class 52: 0.734140
+Accuracy of class 53: 0.953112
+Accuracy of class 54: 0.895960
+Accuracy of class 55: 0.547532
+Accuracy of class 56: 0.572555
+Accuracy of class 57: 0.981982
+Accuracy of class 58: 0.585510
+Accuracy of class 59: 0.918139
+Accuracy of class 60: 0.907498
+Accuracy of class 61: 0.976795
+Accuracy of class 62: 0.759921
+Accuracy of class 63: 0.842785
+Accuracy of class 64: 0.869048
+Accuracy of class 65: 0.962121
+Accuracy of class 66: 0.968078
+Accuracy of class 67: 0.880952
+Accuracy of class 68: 0.974786
+Accuracy of class 69: 1.000000
+Accuracy of class 70: 0.916667
+Accuracy of class 71: 0.901709
+Accuracy of class 72: 0.788889
+Accuracy of class 73: 0.794033
+Accuracy of class 74: 0.950386
+Accuracy of class 75: 0.850811
+Accuracy of class 76: 0.876672
+Accuracy of class 77: 0.933214
+Accuracy of class 78: 0.749839
+Accuracy of class 79: 0.691580
+Accuracy of class 80: 0.920851
+Accuracy of class 81: 0.864912
+Accuracy of class 82: 0.940476
+Accuracy of class 83: 0.917032
+Accuracy of class 84: 0.844762
+Accuracy of class 85: 0.934553
+Accuracy of class 86: 0.989583
+Accuracy of class 87: 0.959596
+Accuracy of class 88: 0.930070
+Accuracy of class 89: 0.951058
+Accuracy of class 90: 0.917716
+Accuracy of class 91: 0.809524
+Accuracy of class 92: 0.937566
+Accuracy of class 93: 0.936186
+Accuracy of class 94: 0.927696
+Accuracy of class 95: 0.847516
+Accuracy of class 96: 0.941964
+Accuracy of class 97: 0.990991
+Accuracy of class 98: 0.705369
+Accuracy of class 99: 0.898413
+Accuracy of class 100: 0.905706
+Accuracy of class 101: 0.794444
+-----saving at SAVEPATH ....../debug/  2015-03-19-03-13------
+total time is 41.171524 hours
+
+----------------UCF101 RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 256000 features for training a codebook
+number of centroids in codebook: 512
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: Fisher
+pooling method: sum-pooling
+normalization: Intra+Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.871483, acc = 0.856199
+2 th split: mean_ap = 0.892647, acc = 0.881360
+3 th split: mean_ap = 0.890673, acc = 0.877165
+Final results after 3 splits: mean_ap (mAP) = 0.884934, average accuracy (acc) = 0.871575
+Final results after 3 splits: average class accuracy: 0.869083
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 0.82 0.77 0.78 
+Class 2: ... 0.88 0.62 0.45 
+Class 3: ... 0.73 0.68 0.71 
+Class 4: ... 0.80 0.83 0.90 
+Class 5: ... 0.87 1.00 0.77 
+Class 6: ... 0.91 0.96 0.86 
+Class 7: ... 0.79 0.97 0.82 
+Class 8: ... 0.74 0.45 0.79 
+Class 9: ... 1.00 1.00 0.93 
+Class 10: ... 1.00 1.00 1.00 
+Class 11: ... 1.00 0.92 1.00 
+Class 12: ... 1.00 1.00 1.00 
+Class 13: ... 0.61 0.78 0.88 
+Class 14: ... 0.79 0.77 0.93 
+Class 15: ... 0.87 0.97 1.00 
+Class 16: ... 0.93 0.95 1.00 
+Class 17: ... 0.94 0.85 1.00 
+Class 18: ... 0.97 1.00 0.86 
+Class 19: ... 1.00 0.96 1.00 
+Class 20: ... 0.64 0.79 0.76 
+Class 21: ... 1.00 0.85 0.90 
+Class 22: ... 0.97 1.00 1.00 
+Class 23: ... 0.81 0.82 0.83 
+Class 24: ... 0.80 0.84 0.79 
+Class 25: ... 0.67 0.90 0.61 
+Class 26: ... 1.00 1.00 0.97 
+Class 27: ... 0.69 0.91 0.88 
+Class 28: ... 1.00 1.00 0.96 
+Class 29: ... 0.78 0.97 0.90 
+Class 30: ... 0.89 1.00 0.97 
+Class 31: ... 0.95 0.82 0.84 
+Class 32: ... 0.62 0.87 1.00 
+Class 33: ... 0.97 1.00 0.93 
+Class 34: ... 0.36 0.62 0.49 
+Class 35: ... 0.33 0.63 0.64 
+Class 36: ... 0.98 1.00 1.00 
+Class 37: ... 0.79 0.86 0.98 
+Class 38: ... 0.56 0.50 0.71 
+Class 39: ... 0.88 0.95 0.73 
+Class 40: ... 0.70 0.97 0.94 
+Class 41: ... 1.00 1.00 1.00 
+Class 42: ... 1.00 0.86 1.00 
+Class 43: ... 1.00 0.94 0.91 
+Class 44: ... 0.98 1.00 0.98 
+Class 45: ... 0.84 0.58 0.76 
+Class 46: ... 0.97 0.76 0.89 
+Class 47: ... 0.97 0.72 1.00 
+Class 48: ... 0.95 1.00 1.00 
+Class 49: ... 0.72 0.92 0.76 
+Class 50: ... 0.97 0.86 0.91 
+Class 51: ... 0.69 0.90 0.94 
+Class 52: ... 0.81 0.85 0.55 
+Class 53: ... 0.97 0.94 0.97 
+Class 54: ... 0.73 0.95 1.00 
+Class 55: ... 0.59 0.50 0.56 
+Class 56: ... 0.71 0.65 0.38 
+Class 57: ... 0.95 1.00 1.00 
+Class 58: ... 0.55 0.59 0.62 
+Class 59: ... 0.89 0.96 0.98 
+Class 60: ... 0.98 0.88 0.87 
+Class 61: ... 1.00 1.00 0.95 
+Class 62: ... 0.88 0.79 0.60 
+Class 63: ... 0.91 0.89 0.71 
+Class 64: ... 0.82 0.86 1.00 
+Class 65: ... 0.86 0.98 1.00 
+Class 66: ... 1.00 0.97 0.97 
+Class 67: ... 0.96 0.89 0.86 
+Class 68: ... 0.97 0.97 1.00 
+Class 69: ... 1.00 1.00 1.00 
+Class 70: ... 0.82 0.96 0.96 
+Class 71: ... 0.87 0.83 1.00 
+Class 72: ... 0.87 0.68 0.79 
+Class 73: ... 0.86 0.88 0.68 
+Class 74: ... 0.85 0.95 1.00 
+Class 75: ... 1.00 0.67 0.89 
+Class 76: ... 0.83 0.93 0.86 
+Class 77: ... 0.98 0.82 1.00 
+Class 78: ... 0.63 0.72 0.85 
+Class 79: ... 0.57 0.76 0.74 
+Class 80: ... 0.94 0.89 0.94 
+Class 81: ... 0.70 1.00 0.92 
+Class 82: ... 0.89 0.89 1.00 
+Class 83: ... 0.90 0.97 0.88 
+Class 84: ... 0.90 0.87 0.81 
+Class 85: ... 0.85 0.95 1.00 
+Class 86: ... 0.97 1.00 1.00 
+Class 87: ... 1.00 1.00 0.88 
+Class 88: ... 0.97 0.97 0.82 
+Class 89: ... 0.88 1.00 0.94 
+Class 90: ... 0.97 0.97 0.90 
+Class 91: ... 0.82 0.89 0.82 
+Class 92: ... 0.80 0.98 0.98 
+Class 93: ... 0.97 0.89 0.89 
+Class 94: ... 0.78 1.00 0.97 
+Class 95: ... 0.95 0.74 0.74 
+Class 96: ... 0.86 0.96 0.94 
+Class 97: ... 1.00 0.97 1.00 
+Class 98: ... 0.61 0.89 0.68 
+Class 99: ... 0.74 1.00 1.00 
+Class 100: ... 0.98 0.78 1.00 
+Class 101: ... 0.81 0.83 0.83 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.790399
+Accuracy of class 2: 0.650078
+Accuracy of class 3: 0.708387
+Accuracy of class 4: 0.842002
+Accuracy of class 5: 0.881720
+Accuracy of class 6: 0.907666
+Accuracy of class 7: 0.863352
+Accuracy of class 8: 0.661039
+Accuracy of class 9: 0.975000
+Accuracy of class 10: 1.000000
+Accuracy of class 11: 0.972222
+Accuracy of class 12: 1.000000
+Accuracy of class 13: 0.754205
+Accuracy of class 14: 0.827706
+Accuracy of class 15: 0.945139
+Accuracy of class 16: 0.961240
+Accuracy of class 17: 0.930811
+Accuracy of class 18: 0.945946
+Accuracy of class 19: 0.988095
+Accuracy of class 20: 0.732571
+Accuracy of class 21: 0.916162
+Accuracy of class 22: 0.991453
+Accuracy of class 23: 0.819801
+Accuracy of class 24: 0.807784
+Accuracy of class 25: 0.725678
+Accuracy of class 26: 0.991228
+Accuracy of class 27: 0.823622
+Accuracy of class 28: 0.988095
+Accuracy of class 29: 0.882658
+Accuracy of class 30: 0.953954
+Accuracy of class 31: 0.869104
+Accuracy of class 32: 0.830014
+Accuracy of class 33: 0.966453
+Accuracy of class 34: 0.490324
+Accuracy of class 35: 0.536779
+Accuracy of class 36: 0.992593
+Accuracy of class 37: 0.875590
+Accuracy of class 38: 0.589500
+Accuracy of class 39: 0.853252
+Accuracy of class 40: 0.869592
+Accuracy of class 41: 1.000000
+Accuracy of class 42: 0.954545
+Accuracy of class 43: 0.952910
+Accuracy of class 44: 0.984817
+Accuracy of class 45: 0.724014
+Accuracy of class 46: 0.877521
+Accuracy of class 47: 0.898398
+Accuracy of class 48: 0.982456
+Accuracy of class 49: 0.799919
+Accuracy of class 50: 0.914488
+Accuracy of class 51: 0.846082
+Accuracy of class 52: 0.734140
+Accuracy of class 53: 0.962371
+Accuracy of class 54: 0.895960
+Accuracy of class 55: 0.550245
+Accuracy of class 56: 0.580888
+Accuracy of class 57: 0.981982
+Accuracy of class 58: 0.584117
+Accuracy of class 59: 0.940214
+Accuracy of class 60: 0.906775
+Accuracy of class 61: 0.983740
+Accuracy of class 62: 0.751984
+Accuracy of class 63: 0.835538
+Accuracy of class 64: 0.892857
+Accuracy of class 65: 0.946794
+Accuracy of class 66: 0.978831
+Accuracy of class 67: 0.904762
+Accuracy of class 68: 0.983120
+Accuracy of class 69: 1.000000
+Accuracy of class 70: 0.916667
+Accuracy of class 71: 0.901709
+Accuracy of class 72: 0.776984
+Accuracy of class 73: 0.804134
+Accuracy of class 74: 0.934125
+Accuracy of class 75: 0.850794
+Accuracy of class 76: 0.876672
+Accuracy of class 77: 0.932419
+Accuracy of class 78: 0.734335
+Accuracy of class 79: 0.689993
+Accuracy of class 80: 0.921464
+Accuracy of class 81: 0.873684
+Accuracy of class 82: 0.928571
+Accuracy of class 83: 0.917032
+Accuracy of class 84: 0.861061
+Accuracy of class 85: 0.934553
+Accuracy of class 86: 0.989583
+Accuracy of class 87: 0.959596
+Accuracy of class 88: 0.921298
+Accuracy of class 89: 0.941799
+Accuracy of class 90: 0.948019
+Accuracy of class 91: 0.845238
+Accuracy of class 92: 0.917621
+Accuracy of class 93: 0.918155
+Accuracy of class 94: 0.917279
+Accuracy of class 95: 0.811518
+Accuracy of class 96: 0.919643
+Accuracy of class 97: 0.990991
+Accuracy of class 98: 0.724432
+Accuracy of class 99: 0.914286
+Accuracy of class 100: 0.920521
+Accuracy of class 101: 0.822487
+-----saving at SAVEPATH ....../debug/  2015-03-23-00-09------
+total time is 33.838999 hours
