@@ -1,0 +1,261 @@
+
+----------------HMDB RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 4000
+k-means implementation: yael
+max number of iterations in k-means: 200
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: myVQ
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.525713, acc = 0.532680
+2 th split: mean_ap = 0.523325, acc = 0.512418
+3 th split: mean_ap = 0.530785, acc = 0.537255
+Final results after 3 splits: mean_ap (mAP) = 0.526608, average accuracy (acc) = 0.527451
+Final results after 3 splits: average class accuracy: 0.527451
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 0.93 0.80 0.77 
+Class 2: ... 0.33 0.43 0.40 
+Class 3: ... 0.73 0.63 0.60 
+Class 4: ... 0.60 0.37 0.57 
+Class 5: ... 0.73 0.50 0.57 
+Class 6: ... 0.80 0.70 0.77 
+Class 7: ... 0.40 0.27 0.60 
+Class 8: ... 0.50 0.60 0.30 
+Class 9: ... 0.43 0.53 0.63 
+Class 10: ... 0.87 0.70 0.97 
+Class 11: ... 0.63 0.40 0.60 
+Class 12: ... 0.57 0.20 0.27 
+Class 13: ... 0.43 0.50 0.53 
+Class 14: ... 0.73 0.63 0.40 
+Class 15: ... 0.70 0.53 0.70 
+Class 16: ... 0.97 1.00 0.97 
+Class 17: ... 0.57 0.50 0.70 
+Class 18: ... 0.67 0.33 0.40 
+Class 19: ... 0.83 0.73 0.90 
+Class 20: ... 0.60 0.23 0.43 
+Class 21: ... 0.50 0.10 0.30 
+Class 22: ... 0.27 0.43 0.57 
+Class 23: ... 0.67 0.87 0.87 
+Class 24: ... 0.60 0.67 0.77 
+Class 25: ... 0.37 0.30 0.23 
+Class 26: ... 0.63 0.77 0.83 
+Class 27: ... 0.87 0.83 1.00 
+Class 28: ... 0.13 0.40 0.53 
+Class 29: ... 0.63 0.63 0.53 
+Class 30: ... 0.77 0.90 0.57 
+Class 31: ... 0.63 0.70 0.60 
+Class 32: ... 0.60 0.60 0.83 
+Class 33: ... 0.10 0.30 0.30 
+Class 34: ... 0.50 0.73 0.40 
+Class 35: ... 0.53 0.57 0.53 
+Class 36: ... 0.70 0.97 0.73 
+Class 37: ... 0.47 0.40 0.23 
+Class 38: ... 0.67 0.70 0.67 
+Class 39: ... 0.73 0.87 0.80 
+Class 40: ... 0.40 0.33 0.33 
+Class 41: ... 0.30 0.40 0.37 
+Class 42: ... 0.57 0.33 0.50 
+Class 43: ... 0.50 0.53 0.50 
+Class 44: ... 0.17 0.10 0.23 
+Class 45: ... 0.20 0.40 0.37 
+Class 46: ... 0.10 0.07 0.30 
+Class 47: ... 0.60 0.67 0.50 
+Class 48: ... 0.03 0.07 0.07 
+Class 49: ... 0.53 0.53 0.37 
+Class 50: ... 0.30 0.37 0.43 
+Class 51: ... 0.07 0.00 0.07 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.833333
+Accuracy of class 2: 0.388889
+Accuracy of class 3: 0.655556
+Accuracy of class 4: 0.511111
+Accuracy of class 5: 0.600000
+Accuracy of class 6: 0.755556
+Accuracy of class 7: 0.422222
+Accuracy of class 8: 0.466667
+Accuracy of class 9: 0.533333
+Accuracy of class 10: 0.844444
+Accuracy of class 11: 0.544444
+Accuracy of class 12: 0.344444
+Accuracy of class 13: 0.488889
+Accuracy of class 14: 0.588889
+Accuracy of class 15: 0.644444
+Accuracy of class 16: 0.977778
+Accuracy of class 17: 0.588889
+Accuracy of class 18: 0.466667
+Accuracy of class 19: 0.822222
+Accuracy of class 20: 0.422222
+Accuracy of class 21: 0.300000
+Accuracy of class 22: 0.422222
+Accuracy of class 23: 0.800000
+Accuracy of class 24: 0.677778
+Accuracy of class 25: 0.300000
+Accuracy of class 26: 0.744444
+Accuracy of class 27: 0.900000
+Accuracy of class 28: 0.355556
+Accuracy of class 29: 0.600000
+Accuracy of class 30: 0.744444
+Accuracy of class 31: 0.644444
+Accuracy of class 32: 0.677778
+Accuracy of class 33: 0.233333
+Accuracy of class 34: 0.544444
+Accuracy of class 35: 0.544444
+Accuracy of class 36: 0.800000
+Accuracy of class 37: 0.366667
+Accuracy of class 38: 0.677778
+Accuracy of class 39: 0.800000
+Accuracy of class 40: 0.355556
+Accuracy of class 41: 0.355556
+Accuracy of class 42: 0.466667
+Accuracy of class 43: 0.511111
+Accuracy of class 44: 0.166667
+Accuracy of class 45: 0.322222
+Accuracy of class 46: 0.155556
+Accuracy of class 47: 0.588889
+Accuracy of class 48: 0.055556
+Accuracy of class 49: 0.477778
+Accuracy of class 50: 0.366667
+Accuracy of class 51: 0.044444
+-----saving at SAVEPATH ....../debug/  2015-04-01-11-21------
+total time is 12.446199 hours
+
+----------------HMDB RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW-STP
+feature descriptors: HOG HOF MBHx MBHy
+sampling 256000 features for training a codebook
+number of centroids in codebook: 256
+max number of iterations in k-means: 200
+grid structure: 2 2 2 
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: Fisher
+final feature dimensions: 
+pooling method: sum-pooling
+normalization: Intra+Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.087946, acc = 0.133333
+2 th split: mean_ap = 0.088044, acc = 0.130719
+3 th split: mean_ap = 0.088238, acc = 0.090850
+Final results after 3 splits: mean_ap (mAP) = 0.088076, average accuracy (acc) = 0.118301
+Final results after 3 splits: average class accuracy: 0.118301
+Conclusions: FV hurts performance here.
+Per-class accuracy for each splits: ...
+Class 1: ... 0.07 0.00 0.03 
+Class 2: ... 0.00 0.00 0.00 
+Class 3: ... 0.00 0.00 0.00 
+Class 4: ... 0.00 0.00 0.00 
+Class 5: ... 0.00 0.00 0.00 
+Class 6: ... 0.00 0.00 0.00 
+Class 7: ... 0.00 0.00 0.00 
+Class 8: ... 0.00 0.00 0.00 
+Class 9: ... 0.00 0.00 0.00 
+Class 10: ... 0.00 0.00 0.00 
+Class 11: ... 0.00 0.00 0.00 
+Class 12: ... 0.00 0.00 0.00 
+Class 13: ... 0.00 0.70 0.00 
+Class 14: ... 0.67 0.00 0.00 
+Class 15: ... 1.00 1.00 1.00 
+Class 16: ... 0.00 0.00 0.00 
+Class 17: ... 0.00 0.00 0.00 
+Class 18: ... 0.00 0.00 0.00 
+Class 19: ... 0.87 0.97 0.97 
+Class 20: ... 0.00 0.00 0.00 
+Class 21: ... 0.00 0.47 0.00 
+Class 22: ... 0.00 0.00 0.00 
+Class 23: ... 0.83 0.00 0.00 
+Class 24: ... 0.00 0.00 0.00 
+Class 25: ... 0.00 0.00 0.00 
+Class 26: ... 0.00 0.00 0.00 
+Class 27: ... 0.00 0.00 0.00 
+Class 28: ... 0.77 0.40 0.87 
+Class 29: ... 0.00 0.00 0.00 
+Class 30: ... 1.00 1.00 1.00 
+Class 31: ... 1.00 0.93 0.77 
+Class 32: ... 0.00 0.00 0.00 
+Class 33: ... 0.00 0.67 0.00 
+Class 34: ... 0.00 0.00 0.00 
+Class 35: ... 0.00 0.00 0.00 
+Class 36: ... 0.00 0.00 0.00 
+Class 37: ... 0.00 0.00 0.00 
+Class 38: ... 0.00 0.00 0.00 
+Class 39: ... 0.00 0.00 0.00 
+Class 40: ... 0.00 0.00 0.00 
+Class 41: ... 0.00 0.00 0.00 
+Class 42: ... 0.00 0.00 0.00 
+Class 43: ... 0.00 0.00 0.00 
+Class 44: ... 0.00 0.00 0.00 
+Class 45: ... 0.00 0.00 0.00 
+Class 46: ... 0.60 0.53 0.00 
+Class 47: ... 0.00 0.00 0.00 
+Class 48: ... 0.00 0.00 0.00 
+Class 49: ... 0.00 0.00 0.00 
+Class 50: ... 0.00 0.00 0.00 
+Class 51: ... 0.00 0.00 0.00 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.033333
+Accuracy of class 2: 0.000000
+Accuracy of class 3: 0.000000
+Accuracy of class 4: 0.000000
+Accuracy of class 5: 0.000000
+Accuracy of class 6: 0.000000
+Accuracy of class 7: 0.000000
+Accuracy of class 8: 0.000000
+Accuracy of class 9: 0.000000
+Accuracy of class 10: 0.000000
+Accuracy of class 11: 0.000000
+Accuracy of class 12: 0.000000
+Accuracy of class 13: 0.233333
+Accuracy of class 14: 0.222222
+Accuracy of class 15: 1.000000
+Accuracy of class 16: 0.000000
+Accuracy of class 17: 0.000000
+Accuracy of class 18: 0.000000
+Accuracy of class 19: 0.933333
+Accuracy of class 20: 0.000000
+Accuracy of class 21: 0.155556
+Accuracy of class 22: 0.000000
+Accuracy of class 23: 0.277778
+Accuracy of class 24: 0.000000
+Accuracy of class 25: 0.000000
+Accuracy of class 26: 0.000000
+Accuracy of class 27: 0.000000
+Accuracy of class 28: 0.677778
+Accuracy of class 29: 0.000000
+Accuracy of class 30: 1.000000
+Accuracy of class 31: 0.900000
+Accuracy of class 32: 0.000000
+Accuracy of class 33: 0.222222
+Accuracy of class 34: 0.000000
+Accuracy of class 35: 0.000000
+Accuracy of class 36: 0.000000
+Accuracy of class 37: 0.000000
+Accuracy of class 38: 0.000000
+Accuracy of class 39: 0.000000
+Accuracy of class 40: 0.000000
+Accuracy of class 41: 0.000000
+Accuracy of class 42: 0.000000
+Accuracy of class 43: 0.000000
+Accuracy of class 44: 0.000000
+Accuracy of class 45: 0.000000
+Accuracy of class 46: 0.377778
+Accuracy of class 47: 0.000000
+Accuracy of class 48: 0.000000
+Accuracy of class 49: 0.000000
+Accuracy of class 50: 0.000000
+Accuracy of class 51: 0.000000
+-----saving at SAVEPATH ....../debug/  2015-04-02-10-35------
+total time is 13.714272 hours

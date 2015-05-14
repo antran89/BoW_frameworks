@@ -1,0 +1,38 @@
+
+----------------SSBD RESULTS----------------
+---------------Experiment descriptions---------------
+experiment objective: BoW
+feature descriptors: HOG HOF MBHx MBHy
+sampling 100000 features for training a codebook
+number of centroids in codebook: 4000
+k-means implementation: yael
+max number of iterations in k-means: 200
+grid structure: 2 2 2 
+do PCA whitening
+whitening regularizer: 0.100000
+sampling 1000000 features to train PCA
+encoding method: myVQ
+total feature dimensions: 128000
+pooling method: sum-pooling
+normalization: Power+L2
+classifier: linear_svm
+cost c = 100
+performance measure: average_accuracy
+1 th split: mean_ap = 0.761111, acc = 0.600000
+2 th split: mean_ap = 0.793014, acc = 0.666667
+3 th split: mean_ap = 0.952525, acc = 0.933333
+4 th split: mean_ap = 0.766587, acc = 0.733333
+5 th split: mean_ap = 0.729556, acc = 0.533333
+Final results after 5 splits: mean_ap (mAP) = 0.800559, average accuracy (acc) = 0.693333
+Final results after 5 splits: average class accuracy: 0.693333
+Conclusions:
+Per-class accuracy for each splits: ...
+Class 1: ... 1.00 0.60 0.80 0.80 0.40 
+Class 2: ... 0.20 0.60 1.00 1.00 0.40 
+Class 3: ... 0.60 0.80 1.00 0.40 0.80 
+Mean per-class accuracy: ...
+Accuracy of class 1: 0.720000
+Accuracy of class 2: 0.640000
+Accuracy of class 3: 0.720000
+-----saving at SAVEPATH ....../debug/  2015-04-07-19-52------
+total time is 6.252670 hours
