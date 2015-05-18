@@ -1,0 +1,13 @@
+This package contains the Matlab codes implementing the ScSPM algorithm described in CVPR'09 paper "Linear Spatial Pyramid Matching using Sparse Coding for Image Classification".
+
+Our algorithm is composed of the following parts:
+a. SIFT descriptor extraction.
+b. Sparse coding. We integrated Honglak Lee's matlab codes for training the dictionary. We provide a codebook trained on Caltech 101 for reference.
+c. Multi-scale spatial max pooling of sparse codes.
+d. Linear SVM classification. We implemented a simple linear SVM with squared hinge loss function. Other packages, such as Liblinear, are recommended.
+
+Combining sparse coding with spatial max pooling, the algorithm leads to state-of-the-art performance on Caltech 101 based on SIFT descriptor. The most encouraging part of this algorithm is that the extracted feature favors linear model, and thus can be easily scaled up to large scale dataset. 
+
+Run main.m to see how the functions are called. 
+
+For any questions, feel free to email me at jyang29@ifp.uiuc.edu.

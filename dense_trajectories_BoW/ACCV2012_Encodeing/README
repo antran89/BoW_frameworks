@@ -1,0 +1,14 @@
+A Comparative Study of Encoding, Pooling and Normalization Methods for Action Recognition
+Source Code and Data Files
+
+The LLC and sparse code is from jianchao yang http://www.ifp.illinois.edu/~jyang29/resources.html
+The cuda speedy code is from Omid Aghazadeh http://www.csc.kth.se/~omida/
+
+INSTALLATION
+run install.m
+
+
+RUNNING THE DEMO
+please run the demo_0.m
+
+
