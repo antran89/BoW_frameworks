@@ -4,7 +4,8 @@ It might have many trivial errors if you do not supply the path of dataset and i
 
 HOW-TO INSTALL
 --------------
-This implementation using some functions from LIBSVM, Yael and VLFeat libraries.
+This implementation using some functions from LIBSVM (v3.20), Yael (v4.38) and VLFeat (v0.9.19) libraries.
+
 Just compile some mex files with provided scripts. There is no need to install anything else.
 
 HOW-TO USE
