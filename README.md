@@ -1,4 +1,4 @@
-This is a BoW implementation for action recognition problem.
+This is a BoW implementation for action recognition problem in Matlab.
 
 It might have many trivial errors if you do not supply the path of dataset and input features correctly. Be patient.
 
@@ -13,3 +13,7 @@ Provide path for data set in: params.afspath
 Provide path for features: params.featurepath
 
 And some other parameters in params.
+
+TESTED ON
+---------
+Matlab2012a, Linux x64.
