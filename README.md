@@ -1,6 +1,6 @@
 This is a BoW implementation for action recognition problem.
 
-It might have many trivial errors if you do not supply the path of input features correctly. Be patient.
+It might have many trivial errors if you do not supply the path of dataset and input features correctly. Be patient.
 
 HOW-TO INSTALL
 --------------
