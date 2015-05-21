@@ -1,5 +1,4 @@
-VOT toolkit - The official evaluation toolkit for the Visual Object 
-Tracking (VOT) challenge.
+The BoW (BoF) frameworks.
 
 Copyright (C) 2015  An Tran 
 
