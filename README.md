@@ -12,6 +12,9 @@ This implementation using some functions from LIBSVM (v3.20), Yael (v4.38) and V
 
 Just compile some mex files with provided scripts. There is no need to install anything else.
 
+**Notice**: Due to some problems, we cannot deal with binary files (e.g. mex files) in git. So, some mex files from are missing from VLFeat and Yael. 
+Please try to download these newest libraries and make two symbolic links to the two libraries (i.e, dense_trajectories_BoW/vlfeat and dense_trajectories_BoW/vlfeat). 
+
 HOW-TO USE
 ----------
 
