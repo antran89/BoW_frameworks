@@ -28,6 +28,8 @@ TESTED ON
 
 Matlab2012a, Linux x64.
 
+If you run it successfully on Windows or Mac OS X, please give me a feedback.
+
 EXTENSIONS
 -------------
 
