@@ -8,23 +8,25 @@ It might have many trivial errors if you do not supply the path of dataset and i
 HOW-TO INSTALL
 --------------
 
-This implementation using some functions from LIBSVM (v3.20), Yael (v4.38) and VLFeat (v0.9.19) libraries.
+This implementation using some functions from **[LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)** (v3.20), **[Yael](https://gforge.inria.fr/projects/yael/)** (v4.38) and **[VLFeat](http://www.vlfeat.org/)** (v0.9.19) libraries.
 
 Just compile some mex files with provided scripts. There is no need to install anything else.
 
 **Notice**: Due to some problems, we cannot deal with binary files (e.g. mex files) in git. So, some mex files from are missing from VLFeat and Yael. 
-Please try to download these newest libraries and make two symbolic links to the two libraries (i.e, dense_trajectories_BoW/vlfeat and dense_trajectories_BoW/vlfeat). 
+Please try to download these newest libraries and make two symbolic links to the two libraries (i.e, `dense_trajectories_BoW/vlfeat` and `dense_trajectories_BoW/vlfeat`). 
 
 HOW-TO USE
 ----------
 
-Provide path for data set in: params.afspath
+Provide path for data set in: `params.afspath`.
 
-Provide path for features: params.featurepath
+Provide path for features: `params.featurepath`.
 
-And some other parameters in params.
+Change `k-means` implementation method in: `params.km_method`. Change it to `matlab` if you have problems with installing `Yael` and `VLFeat`.
 
-Voila, you run the BoW_main.m file for each dataset.
+And some other parameters in `params`.
+
+Voila, you run the `BoW_main.m` file for each dataset.
 
 TESTED ON
 ---------
@@ -36,7 +38,7 @@ If you run it successfully on Windows or Mac OS X, please give me a feedback.
 EXTENSIONS
 -------------
 
-You can extend to the other action datasets by looking at the code at BoW_API/HMDB_stdAPI/.
+You can extend to the other action datasets by looking at the code at `BoW_API/HMDB_stdAPI/`.
 
 Developers
 ----------
@@ -51,5 +53,5 @@ The code is available under GPL 3 license.
 Enquiries, Question and Comments
 --------------------------------
 
-If you have any further enquiries, question, or comments, please send an email
-to [tranlaman@gmail.com](). If you would like to file a bug report or a feature request, use the  [Github issue tracker](https://github.com/howtobeahacker/BoW_frameworks/issues).
+If you have any further enquiries, questions, or comments, please send an email
+to [An Tran](tranlaman@gmail.com). If you would like to file a bug report or a feature request, use the  [Github issue tracker](https://github.com/howtobeahacker/BoW_frameworks/issues).
