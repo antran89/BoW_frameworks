@@ -68,4 +68,4 @@ Enquiries, Question and Comments
 --------------------------------
 
 If you have any further enquiries, questions, or comments, please send an email
-to [An Tran](tranlaman@gmail.com). If you would like to file a bug report or a feature request, use the  [Github issue tracker](https://github.com/howtobeahacker/BoW_frameworks/issues).
+to [An Tran](tranlaman@gmail.com). If you would like to file a bug report or a feature request, please use the  [Github issue tracker](https://github.com/howtobeahacker/BoW_frameworks/issues).
