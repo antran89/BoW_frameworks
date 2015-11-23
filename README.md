@@ -33,6 +33,8 @@ TESTED ON
 
 Matlab2012a, Linux x64.
 
+The main code is written in Matlab which is a cross-platform language. In principle, the software can run on Windows or Mac OS X with little efforts on compiling dependencies such as LIBSVM, Yael, VLFeat and [encoding toolbox](https://github.com/antran89/BoW_frameworks/tree/master/dense_trajectories_BoW/ACCV2012_Encodeing).
+
 If you run it successfully on Windows or Mac OS X, please give me a feedback.
 
 EXTENSIONS
