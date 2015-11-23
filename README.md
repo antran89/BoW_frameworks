@@ -41,7 +41,7 @@ You can extend to the other action datasets by looking at the code at BoW_API/HM
 Developers
 ----------
 
-* An Tran
+* [An Tran](http://antran89.github.io/)
 
 License
 -------
