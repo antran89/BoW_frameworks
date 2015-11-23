@@ -47,10 +47,22 @@ Developers
 
 * [An Tran](http://antran89.github.io/)
 
-License
--------
+License and Citation
+---------------------
 
 The code is available under GPL 3 license.
+
+If you find **BoW toolbox** useful in your research, please consider citing:
+```
+@inproceedings{YeLuo_ICCV_2015,
+  author    = {Ye Luo and
+               Loong-Fah Cheong and
+               An Tran},
+  title     = {Actionness-assisted Recognition of Actions},
+  booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+  year      = {2015},
+}
+```
 
 Enquiries, Question and Comments
 --------------------------------
