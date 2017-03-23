@@ -67,7 +67,7 @@ params.pcaSamplingThreshold = 1e6;      % sampling features to train PCA
 params.num_km_init = 1;                 % number of random kmeans or gmm initializations
 params.num_km_samples = 1000;           % number of kmeans samples *Per Centroid*
 params.seed = 10;                       % random seed for kmeans
-params.km_method = 'yael';              % {'michael', 'yael', 'vlfeat', 'matlab'}
+params.km_method = 'matlab';              % {'michael', 'yael', 'vlfeat', 'matlab'}
 params.maxIter = 200;                   % maximum number of iterations
 
 % evaluation method: accuracy (one-vs-all, one label per datapoint), 
