@@ -9,7 +9,7 @@ path = '../../dense_trajectories_BoW';  % basic path
 
 addpath(path);
 addpath(fullfile(path, '/tbox/'));
-addpath('../tbox2/');                   % specific tbox for BoW
+addpath(fullfile(path, '../Saliency_pool_BoW_newAPI/tbox2/'));             % specific tbox for saliency-BoW
 addpath(fullfile(path, '/svm/chi/'));
 addpath(fullfile(path, '/svm/chi/pwmetric/'));
 addpath(fullfile(path, '/svm/libsvm-matlab'));
