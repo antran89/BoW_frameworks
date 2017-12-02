@@ -39,6 +39,7 @@ params.feature_type = 'MBH';            % default feature
 params.type = {'HOG', 'HOF', 'MBHx', 'MBHy'};   % {'Trajectory', 'HOG', 'HOF', 'MBH'};
 params.num_channels  = length(params.type);     % number of channels (feature types)
 params.feature_dim = [];
+params.total_dim = 0;                   % total dim of all features, for viz
 
 % some settings for encoding, pooling, normalization, classification
 params.pca_whitening = true;
@@ -67,6 +68,7 @@ params.km_method = 'yael';              % {'michael', 'yael', 'vlfeat', 'matlab'
 params.maxIter = 200;                   % maximum number of iterations
 
 % evaluation method: accuracy (one-vs-all, one label per datapoint), 
+params.cross_validation = 'train/test splits';
 params.eval = 'average_accuracy';
 
 %svm kernel
