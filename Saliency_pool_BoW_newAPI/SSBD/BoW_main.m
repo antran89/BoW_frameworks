@@ -52,7 +52,7 @@ if strcmp(params.encoding, 'Fisher')
     params.num_centroids = 256;         % gmm mixtures 
 else
     params.threshold = 1e5;
-    params.num_centroids = 8000;        % number of centroids in k-means
+    params.num_centroids = 4000;        % number of centroids in k-means
 end
 
 % some PCAwhitening settings
